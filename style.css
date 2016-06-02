@@ -1,0 +1,47 @@
+/**
+
+*/
+
+body{ /*Selector*/
+    background: lightblue; /*property value*/
+}
+
+body{
+    background: lightgrey;
+    font-family: 'Source Code Pro';
+}
+
+#id{
+    color: green;
+}
+.class{
+    font-size: 100px;
+}
+
+.outer .inner{
+    font-size: 50px;
+    color: red;
+}
+
+ul :first-child{ /*Pseudo tags*/
+    color: blue;
+}
+
+ul :last-child{
+    color: khaki;
+}
+
+ul :nth-child(odd){
+    font-size: 40px;
+}
+
+/* Inheritence (some not inherited like margins/border.. etc)*/
+
+/* specificity 
+   - a (id) b(class, attr, pseudo-class) c(element)
+   
+   LI = 001
+   UL LI = 002
+   #xyx = 100 
+   
+*/
