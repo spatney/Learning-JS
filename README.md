@@ -1,1 +1,1 @@
-# Learning-JS
+# Learning JS & a bit of HTML/CSS
