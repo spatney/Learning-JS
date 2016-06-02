@@ -1,14 +1,23 @@
 // QUIZ!!!!
 
-// Quiz: Implement add() for any numnber of inputs.
+//Implement add() for any numnber of inputs.
 
 debugger;
-
 function add() {
     
 }
 
-add(1,2,2,3,13,12,12,12,123);
+var r = add(1,2,2,3,13,12,12,12,123);
+
+// Implement sum so it can be called as sum(5,2) or sum (5)(2)
+
+debugger;
+function sum(){
+    
+}
+
+r = sum(4)(3);
+r = sum(4,3);
 
 debugger;
 
